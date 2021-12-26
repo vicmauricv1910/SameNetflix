@@ -53,6 +53,7 @@ struct TopMoviePreview: View {
                     
                     SmallVerticalButtton(text: "My List", isOnImage: "checkmark", isOffImage: "plus", isOn: true) {
                         //
+                        print("plus")
                     }
                     
                     Spacer()
